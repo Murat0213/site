@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="webcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Web Development Skills</h1>
+        <p>HTML/CSS skills</p>
+        <p>Responsive design skills</p>
+        <p>Interpersonal skills</p>
+        <p>Testing and debugging skills</p>
+        <p>Back-end basics</p>
+        <p>Search engine optimization</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://im0-tub-kz.yandex.net/i?id=f92d318d94e7f016742ead63f2304d40&n=13">
+        <img id="f2" src="https://cloudinary-res.cloudinary.com/image/upload/responsive_post.png">
+        <img id="f3" src="https://image.slidesharecdn.com/interpersonalskills-100831115552-phpapp01/95/interpersonal-skills-10-728.jpg">
+        <img id="f4" src="https://s3.amazonaws.com/media-p.slid.es/uploads/446091/images/2612047/frontend-e-back-end_02.jpg">
+        <img id="f5" src="https://pagedesignhub.com/wp-content/uploads/2018/03/SEO-PNG-2-1.png">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>

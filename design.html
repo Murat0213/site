@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="designcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Design Skills</h1>
+        <p>Creativity</p>
+        <p>Typography</p>
+        <p>Interactive media</p>
+        <p>Branding</p>
+        <p>Delivering presentations</p>
+        <p>Teamwork and collaboration</p>
+        <p>Leadership</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://noteru.com/wp-content/uploads/2020/05/12/0f133a10f0917e8a0ee8d6df122841ab.jpg">
+        <img id="f2" src="http://educationcareerarticles.com/wp-content/uploads/2013/07/interactive-media3.jpg">
+        <img id="f3" src="https://webstarkmedia.com/wp-content/uploads/2018/03/Branding-Mistakes.jpg">
+        <img id="f4" src="https://careermetis.com/wp-content/uploads/image12-1.png">
+        <img id="f5" src="https://weneedfun.com/wp-content/uploads/2016/11/Leadership-Quotes-Wallpapers-20.jpg">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="educatcss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Education Skills</h1>
+        <p>Enthusiasm</p>
+        <p>Confidence</p>
+        <p>Dedication</p>
+        <p>Conflict resolution</p>
+        <p>Organisation</p>
+        <p>Patience</p>
+        <p>Communication</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://mybayutcdn.bayut.com/mybayut/wp-content/uploads/multicultural_awaren_mYCOl.jpg">
+        <img id="f2" src="http://vitvesti.by/images/y2019/11-04/oniimy-1.jpg">
+        <img id="f3" src="https://www.thebalancecareers.com/thmb/QQ395O_wEs6_1rKtTUGglR-LUAo=/1500x1000/filters:fill(auto,1)/conflict-resolutions-skills-2063739-FINAL-2122b09ccc1b41cebb0869121c41d6a3.png">
+        <img id="f4" src="https://static.wixstatic.com/media/9db775_7fc379c150c24317a4468dcb5fa3a278.png">
+        <img id="f5" src="http://yspu.org/images/9/95/%D0%9C%D0%B5%D0%BD%D0%B5%D0%B4%D0%B6%D0%BC%D0%B5%D0%BD%D1%82_%D0%B2_%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B5.jpg">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>

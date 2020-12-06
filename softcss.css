@@ -1,0 +1,73 @@
+body{
+    font-family: "Comic Sans MS";
+}
+h1{
+    color: darkred;
+    font-size: 45px;
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+}
+.popup{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 2000px;*/
+    height: 1000px;
+    background-color: rgb(0, 0, 0, 0.6);
+    z-index: 2;
+}
+.popup_con{
+    background-image: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    height: 330px;
+    width: 500px;
+    /*position: center;*/
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+#f1{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 300px;
+    border-radius: 15px;
+}
+#f2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 30px;
+    bottom: 300px;
+        border-radius: 15px;
+}
+#f3{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    right: 30px;
+    bottom: 700px;
+        border-radius: 15px;
+}
+#f4{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 30px;
+    bottom: 700px;
+        border-radius: 15px;
+}
+#f5{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 780px;
+    right: 590px;
+        border-radius: 15px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="salescss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Sales Skills</h1>
+        <p>Product Knowledge</p>
+        <p>Strategic Prospecting Skills</p>
+        <p>Rapport Building on the Call</p>
+        <p>Active Listening</p>
+        <p>Communication</p>
+        <p>Qualification Questioning</p>
+        <p>Time Management</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://svprojectmanagement.com/wp-content/uploads/2012/01/Product-Manager-Skills.png">
+        <img id="f2" src="https://mir-s3-cdn-cf.behance.net/projects/max_808/c5628a68837165.Y3JvcCwxMjc4LDEwMDAsMCww.jpg">
+        <img id="f3" src="https://theswissstyle.files.wordpress.com/2014/11/communication-brainstorm.jpg?w=1200">
+        <img id="f4" src="http://www.onetruegift.com/wp-content/uploads/2017/10/c656bf45bb5f24d3cc77c223883b7d2e.png">
+        <img id="f5" src="https://ctmfile.com/assets/ugc/images/TimeMngm.png">
+    </div>
+</div>
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="acouncss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+        <h1 id="soft">Acounting & Finance Skills</h1>
+        <p>Analytical Skills</p>
+        <p>Adaptability</p>
+        <p>Critical Thinking</p>
+        <p>Industry Knowledge</p>
+        <p>Spreadsheet Proficiency</p>
+        <p>Financial reporting</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://www.acer.org/files/uploads/Image-3.jpg">
+        <img id="f2" src="https://www.electronicsb2b.com/wp-content/uploads/2017/08/Financial-Reports.jpg">
+        <img id="f3" src="https://navyuginfo.com/wp-content/uploads/2017/07/industry-2630319_1280-1-1080x675.jpg">
+        <img id="f4" src="https://db-excel.com/wp-content/uploads/2019/01/basic-spreadsheet-proficiency-with-microsoft-excel-throughout-microsoft-excel-2010-basic-to-intermediate-oaks-training-1293x970.jpg">
+        <img id="f5" src="https://acumenagc.com/wp-content/uploads/2019/07/IMG-20190709-WA0006.jpg">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>

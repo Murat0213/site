@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="basiccss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Basic Technical Skills</h1>
+        <p>Programming languages</p>
+        <p>Common operating systems</p>
+        <p>Software proficiency</p>
+        <p>Technical writing</p>
+        <p>Project management</p>
+        <p>Data analysis</p>
+        <p>Work Ethic</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://4.bp.blogspot.com/-g3twOLhaThw/WKBCCDJ_eBI/AAAAAAAABdk/0M7zPpCwCPwnYhLCI0hHzF7pQ0dkzcYmACLcB/w1200-h630-p-k-no-nu/programming-languages.jpg">
+        <img id="f2" src="https://slideplayer.com/slide/6359404/22/images/28/Operating+System+Functions.jpg">
+        <img id="f3" src="https://miro.medium.com/max/800/1*5C1_34JMfaanoRHjJ5_tjA.png">
+        <img id="f4" src="https://i.ytimg.com/vi/8koTH-y_5sA/maxresdefault.jpg">
+        <img id="f5" src="https://slideplayer.com/slide/7959273/25/images/15/Data+Analysis+Pipeline.jpg">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>

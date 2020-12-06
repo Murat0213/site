@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="softcss.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body onload="load()">
+<div class="popup">
+    <div class="popup_con">
+<!--        <img id="closed" src="https://im0-tub-kz.yandex.net/i?id=6aad95b3630d8339de62304178fb5408&n=13">-->
+        <h1 id="soft">Marketing Skills</h1>
+        <p>Are revenue-driven marketers</p>
+        <p>Know their customers and markets</p>
+        <p>Create remarkable customer experiences</p>
+        <p>Are great storytellers</p>
+        <p>Never stop acquiring new marketing tricks</p>
+        <p>Use data to make decisions</p>
+        <p>Enjoy working with technology</p>
+    </div>
+
+    <div>
+        <img id="f1" src="https://www.thebalancecareers.com/thmb/5gc7XwD5wdoQJ9IpxtGb-Kl4FIk=/2121x1414/filters:fill(auto,1)/GettyImages-903070331-5a565a48482c520037ead0ee.jpg">
+        <img id="f2" src="https://pbs.twimg.com/media/Dcq-2hCWAAAT4Cq.jpg:large">
+        <img id="f3" src="https://www.grahamjones.co.uk/wp-content/uploads/2013/01/Marketing-Review-2.jpg">
+        <img id="f4" src="http://www.contentcurationmarketing.com/wp-content/uploads/2017/10/curata__Bpv2YD63iM5G4NG.jpeg">
+        <img id="f5" src="https://ontheflyrsg.com/wp-content/uploads/2016/08/Marketing.jpg">
+    </div>
+</div>
+
+<script>
+
+    function load() {
+        $("#f1").animate({top: '-=20px'}, "slow");
+        $("#f1").animate({top: '+=20px'}, "slow");
+
+        $("#f2").animate({top: '-=20px'}, "slow");
+        $("#f2").animate({top: '+=20px'}, "slow");
+
+        $("#f3").animate({top: '+=20px'}, "slow");
+        $("#f3").animate({top: '-=20px'}, "slow");
+
+        $("#f4").animate({top: '+=20px'}, "slow");
+        $("#f4").animate({top: '-=20px'}, "slow");
+
+        $("#f5").animate({opacity: '0'}, "slow");
+        $("#f5").animate({opacity: '1'}, "slow");
+        // $(".text").animate({top: '+=10px'}, 500);
+        // $("#img").animate({opacity: '1'}, "slow");
+        // $("#p").animate(({top: '-=20px',opacity: '1'}));
+        // $(".header_1").animate({opacity: '0'})
+        // $(".header_1").animate({opacity: '1'})
+    }
+
+</script>
+</body>
+</html>
